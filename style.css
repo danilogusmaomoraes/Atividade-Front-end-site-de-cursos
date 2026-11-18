@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f1f4f7;
+    color: #333333;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    flex: 1;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #17324d;
+    color: #ffffff;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    padding: 8px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.menu a:hover,
+.botao:hover {
+    background-color: #d9edff;
+    color: #17324d;
+}
+
+a:focus {
+    border: 2px solid #1687ff;
+}
+
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 50px 20px;
+}
+
+.apresentacao h1 {
+    font-size: 32px;
+}
+
+.botao {
+    padding: 12px 18px;
+    border: 2px solid #1687ff;
+    border-radius: 6px;
+    background-color: #1687ff;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.cursos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.cursos h2 {
+    width: 100%;
+}
+
+.card {
+    flex: 1;
+    min-width: 250px;
+    padding: 20px;
+    border: 1px solid #aeb9c4;
+    border-radius: 6px;
+    background-color: #ffffff;
+}
+
+.card:first-child {
+    border: 2px solid #1687ff;
+}
+
+.card h3,
+.card p {
+    margin-bottom: 10px;
+}
+
+.card a {
+    color: #1687ff;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #17324d;
+    color: #ffffff;
+}
