@@ -1,2 +1,2 @@
 # Atividade-Front-end-site-de-cursos
-Página de apresentação de cursos feita com HTML e CSS, usando Flexbox e pseudoclasses (:hover, :focus e :first-child). Atividade da faculdade.
+Página web simples que apresenta três cursos de uma instituição fictícia (Instituto Horizonte). Contém cabeçalho com menu, apresentação com botão, cards de cursos e rodapé. Foi desenvolvida em HTML e CSS para praticar Flexbox (alinhamento, gap e flex-wrap) e pseudoclasses (:hover, :focus e :first-child).
